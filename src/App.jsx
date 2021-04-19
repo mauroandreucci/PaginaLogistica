@@ -12,7 +12,8 @@ function App() {
       
        <Layout backgroundImg={"/Recursos/IMG-INI2.jpg"}>
        <Navbar/>
-       <ContenedorPpl contenedorIMG1={"/Recursos/imagenes/soga-2.jpeg"} contenedorIMG2={"/Recursos/imagenes/soga-1.jpeg"} contenedorIMG3={"/Recursos/imagenes/soga-3.jpeg"} >  </ContenedorPpl>
+       <ContenedorPpl >  </ContenedorPpl>
+       
        <Footer></Footer>
        </Layout>
      
