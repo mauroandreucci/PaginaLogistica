@@ -1,0 +1,9 @@
+.foto-cliente{
+    height: 180px;
+    border-radius: 5%;
+    border-color: black;
+    opacity: 98%;
+     width: 100%;
+
+    display: block;
+}
