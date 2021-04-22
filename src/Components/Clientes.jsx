@@ -11,7 +11,7 @@ export const Clientes = (props) => {
   
   <div class=" col-sm-6 col-lg-2 offset-sm-3 offset-lg-2 me-0  ">
       <img class="foto-cliente col-sm-10 col-lg-10 mt-4" src={props.contenedorIMG1} />
-        <p>cliente</p>
+        <p>cliente reforma</p>
   </div>
   
   <div class="col-sm-6 col-lg-2 offset-sm-3 offset-lg-2 me-0 ">
