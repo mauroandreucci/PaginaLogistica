@@ -16,8 +16,18 @@
 
 .cartel-detalle{
     opacity: 90%;
-    font-family:courier,Arial, Helvetica, sans-serif;
-    font-size: 23;
+    font-family:'Aleo',Georgia,"Times New Roman",serif;
+    font-weight: bolder;
+    font-size: 22px;
 }
 
+
+#Icono:hover{
+ 
+   
+   
+    -webkit-transform:  translate(-20px,-10px)  rotate(-5deg) ;
+
+   
+}
 

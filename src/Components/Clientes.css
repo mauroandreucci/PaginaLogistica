@@ -1,9 +1,18 @@
 .foto-cliente{
-    height: 180px;
-    border-radius: 5%;
+    height: 240px;
+    border-radius: 8%;
     border-color: black;
     opacity: 98%;
      width: 100%;
 
-    display: block;
+}
+
+.contenedor-clientes{
+    opacity: 90%;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
 }

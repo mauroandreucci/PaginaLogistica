@@ -1,38 +1,38 @@
-import React from 'react'
-import './Clientes.css';
+import React, { Fragment } from "react";
+import "./Clientes.css";
 
 export const Clientes = (props) => {
-    
-    
-    
-    return (
-        <div class="row mt-4 card">
-        <div class="row mt-4 col-xs-12 col-sm-12 col-lg-12 ms-lg-2 mb-5">    
-  
-  <div class=" col-sm-6 col-lg-2 offset-sm-3 offset-lg-2 me-0  ">
-      <img class="foto-cliente col-sm-10 col-lg-10 mt-4" src={props.contenedorIMG1} />
-        <p>cliente reforma 3</p>
-  </div>
-  
-  <div class="col-sm-6 col-lg-2 offset-sm-3 offset-lg-2 me-0 ">
-  <img class=" foto-cliente col-sm-10 col-lg-10 mt-4  offset-lg-0" src={props.contenedorIMG2} />
-  
-  </div>
-  <div class="col-sm-6 col-lg-2 offset-sm-3 offset-lg-2 me-0 ">
-  <img class=" foto-cliente col-sm-10 col-lg-10 mt-4  offset-lg-0" src={props.contenedorIMG3} />
-  
-  </div>
-  <div class="col-sm-6 col-lg-2 offset-sm-3 offset-lg-2 me-0">
-  <img class=" foto-cliente col-sm-10 col-lg-10 mt-4 offset-lg-0" src={props.contenedorIMG4} />
-  
-  </div>
-  
-</div>
-<hr/>
-  <div class="card-text card  cartel-detalle card-body text-center text-muted">
-      <h4>Quienes confiaron en nosotros... </h4>
-  </div>
+  return (
+    <Fragment>
 
-</div>
-    )
-}
+      <div class=" row contenedor-clientes ">
+      
+                <div class="row col-sm-6 col-lg-3 offset-sm-3 offset-lg-0 mt-5 mb-5  ">
+                    <img class="foto-cliente " src={props.contenedorIMG1} />
+                
+                </div>
+                
+        
+               
+                <div class="row col-sm-6 col-lg-3 offset-sm-3 offset-lg-0 me-0 mt-5 mb-5 ">
+                    <img class="foto-cliente " src={props.contenedorIMG2} />
+                
+                </div>
+               
+               
+                <div class="row col-sm-6 col-lg-3 offset-sm-3 offset-lg-0 me-0 mt-5 mb-5 ">
+                    <img class="foto-cliente " src={props.contenedorIMG3} />
+                
+                </div>
+                <div class="row col-sm-6 col-lg-3 offset-sm-3 offset-lg-0 me-0 mt-5 mb-5 ">
+                    <img class="foto-cliente " src={props.contenedorIMG4} />
+                
+                </div>
+             
+       
+       
+         </div>
+      
+    </Fragment>
+  );
+};

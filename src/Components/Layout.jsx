@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Background = styled.div`
     background-image: url('${props => props.imgUrl}');
-    height: 350vh;
+    height: 450vh;
     width: 100%;
     background-attachment:fixed;
     background-position: center center;

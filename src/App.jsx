@@ -14,9 +14,9 @@ function App() {
        <Navbar/>
        <ContenedorPpl >  </ContenedorPpl>
        
-       <Footer></Footer>
+       
        </Layout>
-     
+        <Footer></Footer>
       
   
 
