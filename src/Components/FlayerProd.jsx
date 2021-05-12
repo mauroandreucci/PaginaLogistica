@@ -4,17 +4,19 @@ export const FlayerProd = () => {
     return (
         <div>
              <hr/>
-            <div class="col-lg-10 offset-lg-0 offset-sm-0 cartel-detalle card ">
-                <div class="card-body cartel-detalle">
+            <div className="col-lg-10 offset-lg-1 offset-sm-0 cartel-detalle card ">
+                <div className="card-body cartel-detalle">
                     <h3 class="cartel-detalle text-center">Contamos con servicios como :</h3>
-                    <div class="row col-sm-10 offset-sm-1">
-                        <div class="col-lg-6 offset-lg-3 cartel-detalle">
-                            <hr/>
+                    <hr/>
+                    <div class="row col-lg-12 col-sm-10 offset-sm-1">
+                    
+                        <div class="col-lg-8 offset-lg-2 cartel-detalle">
+                           
                             <div  class="mt-4" id="Icono" >
-                                <img class="mx-4" id="Icono" src="/Recursos/iconosVect/settings.png" width="55px" /> Armado y desarmado de muebles <br/>
+                                <img class="mx-4" id="Icono" src="/Recursos/iconosVect/settings.png" width="55px" /> Armado y desarmado de mobiliario <br/>
                             </div>
                             <div class="mt-4" id="Icono">
-                                <img class="mx-4" id="Icono" src="/Recursos/iconosVect/basket.png" width="55px" ></img> Cajones para mudanza<br/>
+                                <img class="mx-4" id="Icono" src="/Recursos/iconosVect/basket.png" width="55px" ></img> Canastos para mudanza<br/>
                             </div>
                             <div class="mt-4"  id="Icono">
                                 <img class="mx-4" id="Icono" src="/Recursos/iconosVect/rope.png" width="55px" ></img> Trabajos con soga   <br/>

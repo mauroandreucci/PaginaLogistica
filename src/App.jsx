@@ -6,6 +6,7 @@ import { ContenedorPpl } from './Components/ContenedorPpl';
 import Footer from './Components/Footer';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -13,10 +14,10 @@ function App() {
        <Layout backgroundImg={"/Recursos/IMG-INI2.jpg"}>
        <Navbar/>
        <ContenedorPpl >  </ContenedorPpl>
-       
+        
+
        
        </Layout>
-        <Footer></Footer>
       
   
 

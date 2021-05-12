@@ -4,21 +4,23 @@
     opacity: 98%;
      width: 100%;
      height: 100%;
-    display: block;
-    
+    display: inherit;
     
     
 }
 
 .contenedor-principal{
-    height: 120px;
+   
 }
 
 .cartel-detalle{
-    opacity: 90%;
+    opacity: 85%;
     font-family:'Aleo',Georgia,"Times New Roman",serif;
     font-weight: bolder;
     font-size: 22px;
+    background-color: rgb(59, 58, 58);
+    color: rgb(245, 237, 237);
+
 }
 
 
